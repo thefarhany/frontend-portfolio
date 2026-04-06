@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, Layout, Database, Wrench } from "lucide-react";
+import { Code, TabletSmartphone, Database, Wrench } from "lucide-react";
 
 export function AboutSection() {
   const skills = [
@@ -9,9 +9,9 @@ export function AboutSection() {
       icon: <Code className="h-6 w-6 text-neural-600" />,
     },
     {
-      title: "UI/UX",
-      description: "Prototype, Design System",
-      icon: <Layout className="h-6 w-6 text-neural-600" />,
+      title: "Mobile",
+      description: "Android, Kotlin, Flutter",
+      icon: <TabletSmartphone className="h-6 w-6 text-neural-600" />,
     },
     {
       title: "Backend",
