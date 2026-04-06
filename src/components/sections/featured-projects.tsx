@@ -58,7 +58,7 @@ export function FeaturedProjects() {
 
       {loading ? (
         <div className="flex justify-center items-center h-64 text-slate-500">
-          Loading projects bro...
+          Loading Data...
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
